@@ -1,5 +1,6 @@
 # Beaker
-Beaker（烧杯）是一个量化日常饮食的小工具
+Beaker（烧杯）是一个量化日常饮食的小工具，同时也是缩写词（有点硬）：
+> Build Eating And Keep Eating Reasonable.
 
 ## 背景
 我两年的健身经历告诉我，无论是增肌还是减脂，最重要的事情是量化；而量化的重中之重是**饮食量化**。
