@@ -201,6 +201,33 @@
             "quantifier": "1盒",
             "calorieIndex": "medium",
             "nutrientVaule": 16
+        },
+        {
+            "id": 22,
+            "type": "absolute",
+            "name": "饮用天然水",
+            "brand": "农夫山泉",
+            "quantifier": "1桶",
+            "calorieIndex": "small",
+            "nutrientVaule": 0
+        },
+        {
+            "id": 23,
+            "type": "absolute",
+            "name": "雅哈高冷咖",
+            "brand": "统一",
+            "quantifier": "1瓶",
+            "calorieIndex": "small",
+            "nutrientVaule": 2
+        },
+        {
+            "id": 24,
+            "type": "absolute",
+            "name": "抹茶三三三倍酸奶",
+            "brand": "乐纯",
+            "quantifier": "1盒",
+            "calorieIndex": "small",
+            "nutrientVaule": 9
         }
     ]
 }
