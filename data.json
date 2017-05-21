@@ -106,7 +106,7 @@
         {
             "id": 11,
             "type": "relative",
-            "name": "馄饨",
+            "name": "全家福馄饨",
             "brand": "吉祥馄饨",
             "quantifier": "10只",
             "calorieIndex": "large",
@@ -115,7 +115,7 @@
         {
             "id": 12,
             "type": "relative",
-            "name": "饭团",
+            "name": "牛肉饭团",
             "brand": "台湾饭团",
             "quantifier": "1只",
             "calorieIndex": "large",
@@ -226,6 +226,42 @@
             "name": "抹茶三三三倍酸奶",
             "brand": "乐纯",
             "quantifier": "1盒",
+            "calorieIndex": "small",
+            "nutrientVaule": 9
+        },
+        {
+            "id": 25,
+            "type": "absolute",
+            "name": "椰子玫瑰三三三倍酸奶",
+            "brand": "乐纯",
+            "quantifier": "1盒",
+            "calorieIndex": "small",
+            "nutrientVaule": 9
+        },
+        {
+            "id": 26,
+            "type": "absolute",
+            "name": "全麦高纤维面包",
+            "brand": "曼可顿",
+            "quantifier": "2片",
+            "calorieIndex": "medium",
+            "nutrientVaule": 11
+        },
+        {
+            "id": 27,
+            "type": "relative",
+            "name": "荠菜鲜肉馄饨",
+            "brand": "千里香馄饨",
+            "quantifier": "10只",
+            "calorieIndex": "medium",
+            "nutrientVaule": 25
+        },
+        {
+            "id": 28,
+            "type": "absolute",
+            "name": "贝纳颂经典蓝山",
+            "brand": "味全",
+            "quantifier": "1瓶",
             "calorieIndex": "small",
             "nutrientVaule": 9
         }
