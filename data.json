@@ -253,7 +253,7 @@
             "name": "荠菜鲜肉馄饨",
             "brand": "千里香馄饨",
             "quantifier": "10只",
-            "calorieIndex": "medium",
+            "calorieIndex": "large",
             "nutrientVaule": 25
         },
         {
@@ -264,6 +264,33 @@
             "quantifier": "1瓶",
             "calorieIndex": "small",
             "nutrientVaule": 9
+        },
+        {
+            "id": 29,
+            "type": "absolute",
+            "name": "明治低脂肪风味酸乳",
+            "brand": "明治",
+            "quantifier": "1杯",
+            "calorieIndex": "small",
+            "nutrientVaule": 4
+        },
+        {
+            "id": 30,
+            "type": "absolute",
+            "name": "全麦火腿蛋三明治",
+            "brand": "全家",
+            "quantifier": "1杯",
+            "calorieIndex": "medium",
+            "nutrientVaule": 14
+        },
+        {
+            "id": 31,
+            "type": "absolute",
+            "name": "超熟吐司",
+            "brand": "顶盛",
+            "quantifier": "4片",
+            "calorieIndex": "large",
+            "nutrientVaule": 23
         }
     ]
 }
