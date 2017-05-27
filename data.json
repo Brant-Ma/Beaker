@@ -43,11 +43,11 @@
 		{
 			"id": 4,
 			"type": "absolute",
-			"name": "大燕麦片",
-			"brand": "桂格",
-			"quantifier": "1包",
-			"calorieIndex": "medium",
-			"nutrientVaule": 10
+			"name": "巧克力豆奶",
+			"brand": "维他奶",
+			"quantifier": "1盒",
+			"calorieIndex": "small",
+			"nutrientVaule": 8
 		},
 		{
 			"id": 5,
@@ -169,11 +169,11 @@
 		{
 			"id": 18,
 			"type": "absolute",
-			"name": "健身鸡胸",
-			"brand": "优追麦克斯",
-			"quantifier": "1块",
-			"calorieIndex": "small",
-			"nutrientVaule": 9
+			"name": "照烧鸡排大口饭团",
+			"brand": "全家",
+			"quantifier": "1只",
+			"calorieIndex": "medium",
+			"nutrientVaule": 14
 		},
 		{
 			"id": 19,
@@ -218,7 +218,7 @@
 			"brand": "统一",
 			"quantifier": "1瓶",
 			"calorieIndex": "small",
-			"nutrientVaule": 2
+			"nutrientVaule": 5
 		},
 		{
 			"id": 24,
@@ -235,8 +235,8 @@
 			"name": "火腿三重奏面包",
 			"brand": "全家",
 			"quantifier": "1块",
-			"calorieIndex": "small",
-			"nutrientVaule": 9
+			"calorieIndex": "medium",
+			"nutrientVaule": 12
 		},
 		{
 			"id": 26,
