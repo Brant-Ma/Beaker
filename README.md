@@ -1,4 +1,5 @@
 # Beaker
+![beaker](beaker.png)
 Beaker（烧杯）是一个量化日常饮食的小工具，同时也是缩写词（有点硬）：
 > Build Eating And Keep Eating Reasonable.
 
