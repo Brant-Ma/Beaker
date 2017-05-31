@@ -12,6 +12,11 @@
 		"meaningless": 90,
 		"areYouSerious": 100
 	},
+	"guiltFreeList": [
+		"农夫山泉",
+		"零度可乐",
+		"东方树叶"
+	],
 	"foodRepository": [
 		{
 			"id": 1,
@@ -42,12 +47,12 @@
 		},
 		{
 			"id": 4,
-			"type": "absolute",
-			"name": "巧克力豆奶",
-			"brand": "维他奶",
-			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 8
+			"type": "relative",
+			"name": "燃面",
+			"brand": "宜宾燃面",
+			"quantifier": "1碗",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 35
 		},
 		{
 			"id": 5,
@@ -105,12 +110,12 @@
 		},
 		{
 			"id": 11,
-			"type": "relative",
-			"name": "全家福馄饨",
-			"brand": "吉祥馄饨",
-			"quantifier": "10只",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
+			"type": "absolute",
+			"name": "奥尔良烤鸡大口饭团",
+			"brand": "全家",
+			"quantifier": "1只",
+			"calorieIndex": "medium",
+			"nutrientVaule": 15
 		},
 		{
 			"id": 12,
@@ -160,11 +165,11 @@
 		{
 			"id": 17,
 			"type": "absolute",
-			"name": "标准鸡胸",
-			"brand": "优追麦克斯",
-			"quantifier": "1块",
-			"calorieIndex": "small",
-			"nutrientVaule": 6
+			"name": "五目酱鸡肉串蛋炒饭",
+			"brand": "全家",
+			"quantifier": "1盒",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 33
 		},
 		{
 			"id": 18,
