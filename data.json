@@ -93,11 +93,11 @@
 		{
 			"id": 9,
 			"type": "absolute",
-			"name": "黑椒牛肉沙拉",
+			"name": "蔬菜鸡肉卷沙拉",
 			"brand": "全家",
 			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 10
+			"calorieIndex": "large",
+			"nutrientVaule": 21
 		},
 		{
 			"id": 10,
@@ -147,11 +147,11 @@
 		{
 			"id": 15,
 			"type": "absolute",
-			"name": "鹿肉",
-			"brand": "优追麦克斯",
+			"name": "奥尔良鸡腿排三明治",
+			"brand": "全家",
 			"quantifier": "1块",
-			"calorieIndex": "small",
-			"nutrientVaule": 6
+			"calorieIndex": "medium",
+			"nutrientVaule": 13
 		},
 		{
 			"id": 16,
@@ -223,7 +223,7 @@
 			"brand": "统一",
 			"quantifier": "1瓶",
 			"calorieIndex": "small",
-			"nutrientVaule": 5
+			"nutrientVaule": 2
 		},
 		{
 			"id": 24,
