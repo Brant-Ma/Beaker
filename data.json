@@ -39,11 +39,11 @@
 		{
 			"id": 3,
 			"type": "absolute",
-			"name": "切片面包",
-			"brand": "曼可顿",
-			"quantifier": "2片",
+			"name": "日式乌冬蘸面",
+			"brand": "全家",
+			"quantifier": "1盒",
 			"calorieIndex": "medium",
-			"nutrientVaule": 12
+			"nutrientVaule": 17
 		},
 		{
 			"id": 4,
@@ -129,20 +129,20 @@
 		{
 			"id": 13,
 			"type": "absolute",
-			"name": "五谷蛋清",
-			"brand": "优追麦克斯",
-			"quantifier": "3包",
-			"calorieIndex": "small",
-			"nutrientVaule": 3
+			"name": "芝士火腿三明治",
+			"brand": "全家",
+			"quantifier": "1块",
+			"calorieIndex": "medium",
+			"nutrientVaule": 15
 		},
 		{
 			"id": 14,
 			"type": "absolute",
-			"name": "牛肉",
-			"brand": "优追麦克斯",
-			"quantifier": "1块",
-			"calorieIndex": "small",
-			"nutrientVaule": 7
+			"name": "厚切猪排三明治",
+			"brand": "全家",
+			"quantifier": "1盒",
+			"calorieIndex": "medium",
+			"nutrientVaule": 17
 		},
 		{
 			"id": 15,
@@ -291,11 +291,11 @@
 		{
 			"id": 31,
 			"type": "absolute",
-			"name": "超熟吐司",
-			"brand": "顶盛",
-			"quantifier": "2片",
+			"name": "笋干烧牛肉",
+			"brand": "全家",
+			"quantifier": "1袋",
 			"calorieIndex": "medium",
-			"nutrientVaule": 12
+			"nutrientVaule": 15
 		},
 		{
 			"id": 32,
