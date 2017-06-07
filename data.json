@@ -84,11 +84,11 @@
 		{
 			"id": 8,
 			"type": "absolute",
-			"name": "椒盐鸡肉蔬菜沙拉",
+			"name": "番茄炒蛋蚝油牛肉双拼饭",
 			"brand": "全家",
 			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 4
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 37
 		},
 		{
 			"id": 9,
@@ -273,11 +273,11 @@
 		{
 			"id": 29,
 			"type": "absolute",
-			"name": "明治低脂肪风味酸乳",
-			"brand": "明治",
-			"quantifier": "1杯",
-			"calorieIndex": "small",
-			"nutrientVaule": 4
+			"name": "照烧鸡排圆形饭团",
+			"brand": "全家",
+			"quantifier": "1只",
+			"calorieIndex": "medium",
+			"nutrientVaule": 11
 		},
 		{
 			"id": 30,
