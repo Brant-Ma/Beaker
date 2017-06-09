@@ -192,11 +192,11 @@
 		{
 			"id": 20,
 			"type": "absolute",
-			"name": "每日坚果",
-			"brand": "优追麦克斯",
-			"quantifier": "1包",
-			"calorieIndex": "small",
-			"nutrientVaule": 6
+			"name": "照烧鸡排三明治",
+			"brand": "全家",
+			"quantifier": "1块",
+			"calorieIndex": "medium",
+			"nutrientVaule": 12
 		},
 		{
 			"id": 21,
@@ -291,11 +291,11 @@
 		{
 			"id": 31,
 			"type": "absolute",
-			"name": "笋干烧牛肉",
+			"name": "红烧牛肉",
 			"brand": "全家",
 			"quantifier": "1袋",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
+			"calorieIndex": "small",
+			"nutrientVaule": 7
 		},
 		{
 			"id": 32,
