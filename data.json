@@ -138,11 +138,11 @@
 		{
 			"id": 14,
 			"type": "absolute",
-			"name": "厚切猪排三明治",
-			"brand": "全家",
+			"name": "孜然牛肉盖饭",
+			"brand": "罗森",
 			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 17
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 30
 		},
 		{
 			"id": 15,
