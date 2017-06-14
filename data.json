@@ -75,11 +75,11 @@
 		{
 			"id": 7,
 			"type": "absolute",
-			"name": "营养饮",
-			"brand": "薄荷",
-			"quantifier": "1包",
-			"calorieIndex": "small",
-			"nutrientVaule": 7
+			"name": "泰式红咖喱鸡排饭",
+			"brand": "全家",
+			"quantifier": "1盒",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 37
 		},
 		{
 			"id": 8,
