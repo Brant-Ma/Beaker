@@ -1,43 +1,29 @@
-const {app, BrowserWindow} = require('electron')
-const path = require('path')
-const url = require('url')
-const dock = require('./script/dock')
+// import module
+const ele = require('electron')
+const dockInit = require('./script/dock')
 
-// keep a reference of window object
+// basic identifier
 let win
+let app = ele.app
 
-function createWindow() {
-  // create window
-  win = new BrowserWindow({width: 800, height: 600})
+// create window
+let create = () => {
+  win = new ele.BrowserWindow({width: 800, height: 600})
 
-  // load index.html
-  win.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
-    protocol: 'file:',
-    slashes: true
-  }))
+  win.loadURL(`file://${__dirname}/index.html`)
 
-  // open devtools
-  // win.webContents.openDevTools()
-
-  // release the reference of window object
   win.on('closed', () => { win = null })
 
-  // set dock
-  dock.setDock()
+  dockInit.init('image/icon.png')
 }
 
 // event hook for application
+app.on('ready', create)
 
-// ready
-app.on('ready', createWindow)
-
-// quit
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit()
+app.on('activate', () => {
+  if (win === null) create()
 })
 
-// start
-app.on('activate', () => {
-  if (win === null) createWindow()
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit()
 })

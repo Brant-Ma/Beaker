@@ -1,9 +1,12 @@
 // import module
+const {app, Menu, nativeImage} = require('electron')
 const tool = require('./toolkit')
-const {app, Menu} = require('electron')
+
+// basic identifier
+let dock = app.dock
 
 // define module
-const dock = {}
+const dockInit = {}
 
 const template = [
   {
@@ -23,10 +26,20 @@ const template = [
   }
 ]
 
-dock.setDock = function() {
+let initMenu = () => {
   let dockMenu = Menu.buildFromTemplate(template)
-  app.dock.setMenu(dockMenu)
+  dock.setMenu(dockMenu)
+}
+
+let initIcon = src => {
+  let image = nativeImage.createFromPath(src)
+  dock.setIcon(image)
+}
+
+dockInit.init = src => {
+  initMenu()
+  initIcon(src)
 }
 
 // export module
-module.exports = dock
+module.exports = dockInit

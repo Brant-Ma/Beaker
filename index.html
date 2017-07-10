@@ -1,11 +1,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>demo</title>
+	<title>Beaker</title>
 </head>
 <body>
 	<script>
-		location = 'http://github.com/Brant-Ma'
-	</script>
+		let {node, chrome, electron} = process.versions
+		let str = `node ${node}, chrome ${chrome}, electron ${electron}`
+		document.write(str)
+ </script>
 </body>
 </html>
