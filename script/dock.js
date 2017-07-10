@@ -13,7 +13,8 @@ const template = [
   {
     label: '👻 快捷入口',
     submenu: [
-      {role: 'Two'}
+      {label: 'One'},
+      {label: 'Two'}
     ]
   },
   {
