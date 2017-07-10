@@ -237,11 +237,11 @@
 		{
 			"id": 25,
 			"type": "absolute",
-			"name": "火腿三重奏面包",
-			"brand": "全家",
-			"quantifier": "1块",
+			"name": "燕麦麦芽乳",
+			"brand": "阿华田",
+			"quantifier": "1瓶",
 			"calorieIndex": "medium",
-			"nutrientVaule": 12
+			"nutrientVaule": 10
 		},
 		{
 			"id": 26,
