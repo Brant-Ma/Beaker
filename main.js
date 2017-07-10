@@ -1,6 +1,7 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
+const dock = require('./script/dock')
 
 // keep a reference of window object
 let win
@@ -21,6 +22,9 @@ function createWindow() {
 
   // release the reference of window object
   win.on('closed', () => { win = null })
+
+  // set dock
+  dock.setDock()
 }
 
 // event hook for application
