@@ -12,7 +12,7 @@ function createWindow() {
 
   // load index.html
   win.loadURL(url.format({
-    pathname: path.resolve('.', 'index.html'),
+    pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
     slashes: true
   }))
