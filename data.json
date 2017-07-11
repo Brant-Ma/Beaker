@@ -158,7 +158,7 @@
 			"type": "absolute",
 			"name": "迷你鸡胸",
 			"brand": "优追麦克斯",
-			"quantifier": "1块",
+			"quantifier": "1小块",
 			"calorieIndex": "small",
 			"nutrientVaule": 5
 		},
@@ -302,9 +302,117 @@
 			"type": "relative",
 			"name": "鸡胸藜麦沙拉",
 			"brand": "90's Taro",
-			"quantifier": "2片",
+			"quantifier": "1盒",
 			"calorieIndex": "large",
 			"nutrientVaule": 25
+		},
+		{
+			"id": 33,
+			"type": "relative",
+			"name": "藤椒鸡排",
+			"brand": "罗森",
+			"quantifier": "1块",
+			"calorieIndex": "medium",
+			"nutrientVaule": 15
+		},
+		{
+			"id": 34,
+			"type": "relative",
+			"name": "牛肉汤",
+			"brand": "安徽传统牛肉汤",
+			"quantifier": "1碗",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 35
+		},
+		{
+			"id": 35,
+			"type": "relative",
+			"name": "鱼肉麻辣烫",
+			"brand": "布辣格",
+			"quantifier": "1碗",
+			"calorieIndex": "large",
+			"nutrientVaule": 25
+		},
+		{
+			"id": 36,
+			"type": "relative",
+			"name": "蛋奶星星沙拉",
+			"brand": "肆料轻食",
+			"quantifier": "1盒",
+			"calorieIndex": "large",
+			"nutrientVaule": 25
+		},
+		{
+			"id": 37,
+			"type": "relative",
+			"name": "香菇瘦肉粥",
+			"brand": "食根家",
+			"quantifier": "1碗",
+			"calorieIndex": "large",
+			"nutrientVaule": 25
+		},
+		{
+			"id": 38,
+			"type": "relative",
+			"name": "野菜煎饼",
+			"brand": "食根家",
+			"quantifier": "1张",
+			"calorieIndex": "medium",
+			"nutrientVaule": 15
+		},
+		{
+			"id": 39,
+			"type": "relative",
+			"name": "猪鱼虾生煎三拼",
+			"brand": "小杨生煎",
+			"quantifier": "6只",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 35
+		},
+		{
+			"id": 40,
+			"type": "absolute",
+			"name": "芝麻核桃汁",
+			"brand": "硒苗苗",
+			"quantifier": "1瓶",
+			"calorieIndex": "small",
+			"nutrientVaule": 6
+		},
+		{
+			"id": 41,
+			"type": "absolute",
+			"name": "红烧大排饭",
+			"brand": "全家",
+			"quantifier": "1盒",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 36
+		},
+		{
+			"id": 42,
+			"type": "absolute",
+			"name": "零乳糖牛奶",
+			"brand": "优倍",
+			"quantifier": "1盒",
+			"calorieIndex": "medium",
+			"nutrientVaule": 15
+		},
+		{
+			"id": 43,
+			"type": "absolute",
+			"name": "简单点酸奶",
+			"brand": "味全",
+			"quantifier": "1瓶",
+			"calorieIndex": "small",
+			"nutrientVaule": 9
+		},
+		{
+			"id": 44,
+			"type": "absolute",
+			"name": "鱼子蛋沙拉三明治",
+			"brand": "全家",
+			"quantifier": "1块",
+			"calorieIndex": "medium",
+			"nutrientVaule": 14
 		}
 	]
 }
