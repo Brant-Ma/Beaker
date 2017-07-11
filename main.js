@@ -14,7 +14,7 @@ let create = () => {
 
   win.on('closed', () => { win = null })
 
-  dockInit.init('image/icon.png')
+  dockInit.init('static/icon.png')
 }
 
 // event hook for application
