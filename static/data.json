@@ -413,6 +413,15 @@
 			"quantifier": "1块",
 			"calorieIndex": "medium",
 			"nutrientVaule": 14
+		},
+		{
+			"id": 45,
+			"type": "absolute",
+			"name": "花生夹心巧克力",
+			"brand": "士力架",
+			"quantifier": "1块",
+			"calorieIndex": "medium",
+			"nutrientVaule": 12
 		}
 	]
 }
