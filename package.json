@@ -1,8 +1,22 @@
 {
   "name": "Beaker",
-  "version": "1.0.0",
-  "main": "main.js",
+  "description": "Beaker is a tool for dieting, and the meaning of 'beaker' is Build Eating And Keep Eating Reasonable.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brant Ma",
+    "email": "brant.mazhiyuan@gmail.com"
+  },
+  "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^1.6.11"
-  }
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "dev": "electron .",
+    "pack": "npm run clean && electron-packager . --out=dist"
+  },
+  "license": "MIT"
 }
