@@ -422,6 +422,15 @@
 			"quantifier": "1块",
 			"calorieIndex": "medium",
 			"nutrientVaule": 12
+		},
+		{
+			"id": 46,
+			"type": "absolute",
+			"name": "醇壹牛乳",
+			"brand": "明治",
+			"quantifier": "1小盒",
+			"calorieIndex": "small",
+			"nutrientVaule": 6
 		}
 	]
 }
