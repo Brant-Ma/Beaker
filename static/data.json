@@ -218,12 +218,12 @@
 		},
 		{
 			"id": 23,
-			"type": "absolute",
-			"name": "雅哈高冷咖",
-			"brand": "统一",
-			"quantifier": "1瓶",
-			"calorieIndex": "small",
-			"nutrientVaule": 2
+			"type": "relative",
+			"name": "绘蛋鸡肉丼",
+			"brand": "米番屋",
+			"quantifier": "1盒",
+			"calorieIndex": "extraLarge",
+			"nutrientVaule": 35
 		},
 		{
 			"id": 24,
