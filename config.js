@@ -10,7 +10,7 @@ module.exports = {
   APP_ICON: path.join(__dirname, 'static', 'icon.png'),
 
   PAGE_DATA: path.join(__dirname, 'static', 'data.json'),
-  PAGE_INDEX: 'file://' + path.join(__dirname, 'renderer', 'index.html'),
+  PAGE_INDEX: `file://${path.join(__dirname, 'renderer', 'index.html')}`,
 
-  AUTHOR_PROFILE: 'https://github.com/Brant-Ma'
+  AUTHOR_PROFILE: 'https://github.com/Brant-Ma',
 }

@@ -6,7 +6,7 @@ const config = require('../config')
 const tool = {}
 
 tool.about = (type) => {
-  let url = type === 'me' ? config.AUTHOR_PROFILE : config.APP_SITE
+  const url = type === 'me' ? config.AUTHOR_PROFILE : config.APP_SITE
   ele.shell.openExternal(url)
 }
 

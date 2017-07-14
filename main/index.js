@@ -6,17 +6,17 @@ const config = require('../config')
 
 // basic identifier
 let win
-let app = ele.app
+const app = ele.app
 
 // event hook for app
-app.on('ready', win => {
+app.on('ready', () => {
   dockSetter.init(config.APP_ICON)
-  windowSetter.init(win, config.PAGE_INDEX)
+  windowSetter.init(config.PAGE_INDEX)
 })
 
 app.on('activate', () => {
   if (win === null) {
-    createWin()
+    windowSetter.init(config.PAGE_INDEX)
   }
 })
 
@@ -25,3 +25,6 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
+
+// export module
+module.exports = win

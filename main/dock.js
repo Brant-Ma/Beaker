@@ -1,9 +1,9 @@
 // import module
-const {app, Menu, nativeImage} = require('electron')
+const { app, Menu, nativeImage } = require('electron')
 const tool = require('./toolkit')
 
 // basic identifier
-let dock = app.dock
+const dock = app.dock
 
 // define module
 const dockInit = {}
@@ -11,32 +11,32 @@ const dockInit = {}
 const template = [
   {
     label: `😊 欢迎使用 ${app.getName()}`,
-    click() { tool.about('me') }
+    click() { tool.about('me') },
   },
   {
     label: '👻 快捷入口',
     submenu: [
-      {label: 'One'},
-      {label: 'Two'}
-    ]
+      { label: 'One' },
+      { label: 'Two' },
+    ],
   },
   {
     label: '⭐️ 诶呦不错 赏颗星星 ',
-    click() { tool.about('repo') }
-  }
+    click() { tool.about('repo') },
+  },
 ]
 
-let initMenu = () => {
-  let dockMenu = Menu.buildFromTemplate(template)
+const initMenu = () => {
+  const dockMenu = Menu.buildFromTemplate(template)
   dock.setMenu(dockMenu)
 }
 
-let initIcon = src => {
-  let image = nativeImage.createFromPath(src)
+const initIcon = (src) => {
+  const image = nativeImage.createFromPath(src)
   dock.setIcon(image)
 }
 
-dockInit.init = src => {
+dockInit.init = (src) => {
   initMenu()
   initIcon(src)
 }

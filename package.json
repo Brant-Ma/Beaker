@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "electron .",
     "pack": "rimraf ./dist && electron-packager . --out=dist",
-    "test": ""
+    "test": "eslint ."
   },
   "license": "MIT"
 }
