@@ -1,6 +1,6 @@
 {
   "name": "Beaker",
-  "description": "Beaker is a tool for dieting, and the meaning of 'beaker' is Build Eating And Keep Eating Reasonable.",
+  "description": "Beaker is a tool for dieting.",
   "version": "0.1.0",
   "author": {
     "name": "Brant Ma",
@@ -11,12 +11,15 @@
   "devDependencies": {
     "electron": "^1.6.11",
     "electron-packager": "^8.7.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
     "rimraf": "^2.6.1"
   },
   "scripts": {
-    "clean": "rimraf ./dist",
     "dev": "electron .",
-    "pack": "npm run clean && electron-packager . --out=dist"
+    "pack": "rimraf ./dist && electron-packager . --out=dist",
+    "test": ""
   },
   "license": "MIT"
 }
