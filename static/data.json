@@ -1,436 +1,463 @@
 {
 	"version": "1.0",
-	"annotation": {
-		"type": "食物的能量可以被精确测量时即绝对类型，否则即相对类型",
-		"quantifier": "相较于传统的克或毫升单位，真实的食用单位更符合直觉",
-		"calorieIndex": "根据营养值是否低于10或者20或者30，划分为四档参考指数",
-		"nutrientVaule": "每份食物的NRV%值经过处理后的整数值，长期统计可抵消误差"
-	},
 	"criticalValue": {
 		"justSafe": 70,
 		"recommended": 80,
 		"meaningless": 90,
 		"areYouSerious": 100
 	},
-	"guiltFreeList": [
-		"农夫山泉",
-		"零度可乐",
-		"东方树叶"
-	],
-	"foodRepository": [
-		{
-			"id": 1,
-			"type": "absolute",
-			"name": "坚果混合燕麦片",
-			"brand": "光合力量",
-			"quantifier": "2厘米",
-			"calorieIndex": "medium",
-			"nutrientVaule": 11
-		},
-		{
-			"id": 2,
-			"type": "absolute",
-			"name": "原味豆奶",
-			"brand": "维他奶",
-			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 5
-		},
-		{
-			"id": 3,
-			"type": "absolute",
-			"name": "日式乌冬蘸面",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 17
-		},
-		{
-			"id": 4,
-			"type": "relative",
-			"name": "燃面",
-			"brand": "宜宾燃面",
-			"quantifier": "1碗",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 35
-		},
-		{
-			"id": 5,
-			"type": "absolute",
-			"name": "脱脂牛奶",
-			"brand": "安佳",
-			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 5
-		},
-		{
-			"id": 6,
-			"type": "absolute",
-			"name": "迷你谷物",
-			"brand": "雀巢",
-			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 5
-		},
-		{
-			"id": 7,
-			"type": "absolute",
-			"name": "泰式红咖喱鸡排饭",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 37
-		},
-		{
-			"id": 8,
-			"type": "absolute",
-			"name": "番茄炒蛋蚝油牛肉双拼饭",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 37
-		},
-		{
-			"id": 9,
-			"type": "absolute",
-			"name": "蔬菜鸡肉卷沙拉",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "large",
-			"nutrientVaule": 21
-		},
-		{
-			"id": 10,
-			"type": "absolute",
-			"name": "拉蒂那鸡肉沙拉",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 13
-		},
-		{
-			"id": 11,
-			"type": "absolute",
-			"name": "奥尔良烤鸡大口饭团",
-			"brand": "全家",
-			"quantifier": "1只",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
-		},
-		{
-			"id": 12,
-			"type": "relative",
-			"name": "牛肉饭团",
-			"brand": "台湾饭团",
-			"quantifier": "1只",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 13,
-			"type": "absolute",
-			"name": "芝士火腿三明治",
-			"brand": "全家",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
-		},
-		{
-			"id": 14,
-			"type": "absolute",
-			"name": "孜然牛肉盖饭",
-			"brand": "罗森",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 30
-		},
-		{
-			"id": 15,
-			"type": "absolute",
-			"name": "奥尔良鸡腿排三明治",
-			"brand": "全家",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 13
-		},
-		{
-			"id": 16,
-			"type": "absolute",
-			"name": "迷你鸡胸",
-			"brand": "优追麦克斯",
-			"quantifier": "1小块",
-			"calorieIndex": "small",
-			"nutrientVaule": 5
-		},
-		{
-			"id": 17,
-			"type": "absolute",
-			"name": "五目酱鸡肉串蛋炒饭",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 33
-		},
-		{
-			"id": 18,
-			"type": "absolute",
-			"name": "照烧鸡排大口饭团",
-			"brand": "全家",
-			"quantifier": "1只",
-			"calorieIndex": "medium",
-			"nutrientVaule": 14
-		},
-		{
-			"id": 19,
-			"type": "relative",
-			"name": "猪软骨豚骨拉面",
-			"brand": "九州拉面",
-			"quantifier": "1碗",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 35
-		},
-		{
-			"id": 20,
-			"type": "absolute",
-			"name": "照烧鸡排三明治",
-			"brand": "全家",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 12
-		},
-		{
-			"id": 21,
-			"type": "absolute",
-			"name": "黑椒鸡肉溏心蛋三明治",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 16
-		},
-		{
-			"id": 22,
-			"type": "absolute",
-			"name": "照烧鸡排牛丼双拼饭",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 31
-		},
-		{
-			"id": 23,
-			"type": "relative",
-			"name": "绘蛋鸡肉丼",
-			"brand": "米番屋",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 35
-		},
-		{
-			"id": 24,
-			"type": "absolute",
-			"name": "抹茶三三三倍酸奶",
-			"brand": "乐纯",
-			"quantifier": "1盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 9
-		},
-		{
-			"id": 25,
-			"type": "absolute",
-			"name": "燕麦麦芽乳",
-			"brand": "阿华田",
-			"quantifier": "1瓶",
-			"calorieIndex": "medium",
-			"nutrientVaule": 10
-		},
-		{
-			"id": 26,
-			"type": "absolute",
-			"name": "全麦高纤维面包",
-			"brand": "曼可顿",
-			"quantifier": "2片",
-			"calorieIndex": "medium",
-			"nutrientVaule": 12
-		},
-		{
-			"id": 27,
-			"type": "relative",
-			"name": "荠菜鲜肉馄饨",
-			"brand": "千里香馄饨",
-			"quantifier": "10只",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 28,
-			"type": "absolute",
-			"name": "贝纳颂经典蓝山",
-			"brand": "味全",
-			"quantifier": "1瓶",
-			"calorieIndex": "small",
-			"nutrientVaule": 9
-		},
-		{
-			"id": 29,
-			"type": "absolute",
-			"name": "照烧鸡排圆形饭团",
-			"brand": "全家",
-			"quantifier": "1只",
-			"calorieIndex": "medium",
-			"nutrientVaule": 11
-		},
-		{
-			"id": 30,
-			"type": "absolute",
-			"name": "全麦火腿蛋三明治",
-			"brand": "全家",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 14
-		},
-		{
-			"id": 31,
-			"type": "absolute",
-			"name": "红烧牛肉",
-			"brand": "全家",
-			"quantifier": "1袋",
-			"calorieIndex": "small",
-			"nutrientVaule": 7
-		},
-		{
-			"id": 32,
-			"type": "relative",
-			"name": "鸡胸藜麦沙拉",
-			"brand": "90's Taro",
-			"quantifier": "1盒",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 33,
-			"type": "relative",
-			"name": "藤椒鸡排",
-			"brand": "罗森",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
-		},
-		{
-			"id": 34,
-			"type": "relative",
-			"name": "牛肉汤",
-			"brand": "安徽传统牛肉汤",
-			"quantifier": "1碗",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 35
-		},
-		{
-			"id": 35,
-			"type": "relative",
-			"name": "鱼肉麻辣烫",
-			"brand": "布辣格",
-			"quantifier": "1碗",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 36,
-			"type": "relative",
-			"name": "蛋奶星星沙拉",
-			"brand": "肆料轻食",
-			"quantifier": "1盒",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 37,
-			"type": "relative",
-			"name": "香菇瘦肉粥",
-			"brand": "食根家",
-			"quantifier": "1碗",
-			"calorieIndex": "large",
-			"nutrientVaule": 25
-		},
-		{
-			"id": 38,
-			"type": "relative",
-			"name": "野菜煎饼",
-			"brand": "食根家",
-			"quantifier": "1张",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
-		},
-		{
-			"id": 39,
-			"type": "relative",
-			"name": "猪鱼虾生煎三拼",
-			"brand": "小杨生煎",
-			"quantifier": "6只",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 35
-		},
-		{
-			"id": 40,
-			"type": "absolute",
-			"name": "芝麻核桃汁",
-			"brand": "硒苗苗",
-			"quantifier": "1瓶",
-			"calorieIndex": "small",
-			"nutrientVaule": 6
-		},
-		{
-			"id": 41,
-			"type": "absolute",
-			"name": "红烧大排饭",
-			"brand": "全家",
-			"quantifier": "1盒",
-			"calorieIndex": "extraLarge",
-			"nutrientVaule": 36
-		},
-		{
-			"id": 42,
-			"type": "absolute",
-			"name": "零乳糖牛奶",
-			"brand": "优倍",
-			"quantifier": "1盒",
-			"calorieIndex": "medium",
-			"nutrientVaule": 15
-		},
-		{
-			"id": 43,
-			"type": "absolute",
-			"name": "简单点酸奶",
-			"brand": "味全",
-			"quantifier": "1瓶",
-			"calorieIndex": "small",
-			"nutrientVaule": 9
-		},
-		{
-			"id": 44,
-			"type": "absolute",
-			"name": "鱼子蛋沙拉三明治",
-			"brand": "全家",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 14
-		},
-		{
-			"id": 45,
-			"type": "absolute",
-			"name": "花生夹心巧克力",
-			"brand": "士力架",
-			"quantifier": "1块",
-			"calorieIndex": "medium",
-			"nutrientVaule": 12
-		},
-		{
-			"id": 46,
-			"type": "absolute",
-			"name": "醇壹牛乳",
-			"brand": "明治",
-			"quantifier": "1小盒",
-			"calorieIndex": "small",
-			"nutrientVaule": 6
-		}
-	]
+	"freeRepo": {
+		"level": "min",
+		"list": [
+			{
+				"id": 1,
+				"name": "农夫山泉"
+			},
+			{
+				"id": 2,
+				"name": "零度可乐"
+			},
+			{
+				"id": 3,
+				"name": "东方树叶"
+			}
+		]
+	},
+	"guiltRepo": {
+		"level": "max",
+		"list": [
+			{
+				"id": 1,
+				"name": "宜宾燃面"
+			},
+			{
+				"id": 2,
+				"name": "猪软骨豚骨拉面"
+			},
+			{
+				"id": 3,
+				"name": "安徽牛肉汤"
+			},
+			{
+				"id": 4,
+				"name": "唐扬鸡块咖喱蛋包燕麦饭"
+			}
+		]
+	},
+	"dailyRepo": {
+		"level": "normal",
+    "list": [
+			{
+				"id": 1,
+				"type": "absolute",
+				"name": "坚果混合燕麦片",
+				"brand": "光合力量",
+				"quantifier": "2厘米",
+				"calorieIndex": "medium",
+				"nutrientVaule": 11
+			},
+			{
+				"id": 2,
+				"type": "absolute",
+				"name": "原味豆奶",
+				"brand": "维他奶",
+				"quantifier": "1盒",
+				"calorieIndex": "small",
+				"nutrientVaule": 5
+			},
+			{
+				"id": 3,
+				"type": "absolute",
+				"name": "日式乌冬蘸面",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "medium",
+				"nutrientVaule": 17
+			},
+			{
+				"id": 4,
+				"type": "absolute",
+				"name": "红烩牛腩木耳炒蛋双拼饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 36
+			}
+			{
+				"id": 5,
+				"type": "absolute",
+				"name": "脱脂牛奶",
+				"brand": "安佳",
+				"quantifier": "1盒",
+				"calorieIndex": "small",
+				"nutrientVaule": 5
+			},
+			{
+				"id": 6,
+				"type": "absolute",
+				"name": "迷你谷物",
+				"brand": "雀巢",
+				"quantifier": "1盒",
+				"calorieIndex": "small",
+				"nutrientVaule": 5
+			},
+			{
+				"id": 7,
+				"type": "absolute",
+				"name": "泰式红咖喱鸡排饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 37
+			},
+			{
+				"id": 8,
+				"type": "absolute",
+				"name": "番茄炒蛋蚝油牛肉双拼饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 37
+			},
+			{
+				"id": 9,
+				"type": "absolute",
+				"name": "蔬菜鸡肉卷沙拉",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "large",
+				"nutrientVaule": 21
+			},
+			{
+				"id": 10,
+				"type": "absolute",
+				"name": "拉蒂那鸡肉沙拉",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "medium",
+				"nutrientVaule": 13
+			},
+			{
+				"id": 11,
+				"type": "absolute",
+				"name": "奥尔良烤鸡大口饭团",
+				"brand": "全家",
+				"quantifier": "1只",
+				"calorieIndex": "medium",
+				"nutrientVaule": 15
+			},
+			{
+				"id": 12,
+				"type": "relative",
+				"name": "牛肉饭团",
+				"brand": "台湾饭团",
+				"quantifier": "1只",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 13,
+				"type": "absolute",
+				"name": "芝士火腿三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 15
+			},
+			{
+				"id": 14,
+				"type": "absolute",
+				"name": "孜然牛肉盖饭",
+				"brand": "罗森",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 30
+			},
+			{
+				"id": 15,
+				"type": "absolute",
+				"name": "奥尔良鸡腿排三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 13
+			},
+			{
+				"id": 16,
+				"type": "absolute",
+				"name": "迷你鸡胸",
+				"brand": "优追麦克斯",
+				"quantifier": "1小块",
+				"calorieIndex": "small",
+				"nutrientVaule": 5
+			},
+			{
+				"id": 17,
+				"type": "absolute",
+				"name": "五目酱鸡肉串蛋炒饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 33
+			},
+			{
+				"id": 18,
+				"type": "absolute",
+				"name": "照烧鸡排大口饭团",
+				"brand": "全家",
+				"quantifier": "1只",
+				"calorieIndex": "medium",
+				"nutrientVaule": 14
+			},
+			{
+				"id": 19,
+				"type": "absolute",
+				"name": "醇壹牛乳",
+				"brand": "明治",
+				"quantifier": "1小盒",
+				"calorieIndex": "small",
+				"nutrientVaule": 6
+			},
+			{
+				"id": 20,
+				"type": "absolute",
+				"name": "照烧鸡排三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 12
+			},
+			{
+				"id": 21,
+				"type": "absolute",
+				"name": "黑椒鸡肉溏心蛋三明治",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "medium",
+				"nutrientVaule": 16
+			},
+			{
+				"id": 22,
+				"type": "absolute",
+				"name": "照烧鸡排牛丼双拼饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 31
+			},
+			{
+				"id": 23,
+				"type": "relative",
+				"name": "绘蛋鸡肉丼",
+				"brand": "米番屋",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 35
+			},
+			{
+				"id": 24,
+				"type": "absolute",
+				"name": "抹茶三三三倍酸奶",
+				"brand": "乐纯",
+				"quantifier": "1盒",
+				"calorieIndex": "small",
+				"nutrientVaule": 9
+			},
+			{
+				"id": 25,
+				"type": "absolute",
+				"name": "燕麦麦芽乳",
+				"brand": "阿华田",
+				"quantifier": "1瓶",
+				"calorieIndex": "medium",
+				"nutrientVaule": 10
+			},
+			{
+				"id": 26,
+				"type": "absolute",
+				"name": "全麦高纤维面包",
+				"brand": "曼可顿",
+				"quantifier": "2片",
+				"calorieIndex": "medium",
+				"nutrientVaule": 12
+			},
+			{
+				"id": 27,
+				"type": "relative",
+				"name": "荠菜鲜肉馄饨",
+				"brand": "千里香馄饨",
+				"quantifier": "10只",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 28,
+				"type": "absolute",
+				"name": "贝纳颂经典蓝山",
+				"brand": "味全",
+				"quantifier": "1瓶",
+				"calorieIndex": "small",
+				"nutrientVaule": 9
+			},
+			{
+				"id": 29,
+				"type": "absolute",
+				"name": "照烧鸡排圆形饭团",
+				"brand": "全家",
+				"quantifier": "1只",
+				"calorieIndex": "medium",
+				"nutrientVaule": 11
+			},
+			{
+				"id": 30,
+				"type": "absolute",
+				"name": "全麦火腿蛋三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 14
+			},
+			{
+				"id": 31,
+				"type": "absolute",
+				"name": "红烧牛肉",
+				"brand": "全家",
+				"quantifier": "1袋",
+				"calorieIndex": "small",
+				"nutrientVaule": 7
+			},
+			{
+				"id": 32,
+				"type": "relative",
+				"name": "鸡胸藜麦沙拉",
+				"brand": "90's Taro",
+				"quantifier": "1盒",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 33,
+				"type": "relative",
+				"name": "藤椒鸡排",
+				"brand": "罗森",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 15
+			},
+			{
+				"id": 34,
+				"type": "absolute",
+				"name": "花生夹心巧克力",
+				"brand": "士力架",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 12
+			},
+			{
+				"id": 35,
+				"type": "relative",
+				"name": "鱼肉麻辣烫",
+				"brand": "布辣格",
+				"quantifier": "1碗",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 36,
+				"type": "relative",
+				"name": "蛋奶星星沙拉",
+				"brand": "肆料轻食",
+				"quantifier": "1盒",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 37,
+				"type": "relative",
+				"name": "香菇瘦肉粥",
+				"brand": "食根家",
+				"quantifier": "1碗",
+				"calorieIndex": "large",
+				"nutrientVaule": 25
+			},
+			{
+				"id": 38,
+				"type": "relative",
+				"name": "野菜煎饼",
+				"brand": "食根家",
+				"quantifier": "1张",
+				"calorieIndex": "medium",
+				"nutrientVaule": 15
+			},
+			{
+				"id": 39,
+				"type": "relative",
+				"name": "猪鱼虾生煎三拼",
+				"brand": "小杨生煎",
+				"quantifier": "6只",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 35
+			},
+			{
+				"id": 40,
+				"type": "absolute",
+				"name": "芝麻核桃汁",
+				"brand": "硒苗苗",
+				"quantifier": "1瓶",
+				"calorieIndex": "small",
+				"nutrientVaule": 6
+			},
+			{
+				"id": 41,
+				"type": "absolute",
+				"name": "红烧大排饭",
+				"brand": "全家",
+				"quantifier": "1盒",
+				"calorieIndex": "extraLarge",
+				"nutrientVaule": 36
+			},
+			{
+				"id": 42,
+				"type": "absolute",
+				"name": "零乳糖牛奶",
+				"brand": "优倍",
+				"quantifier": "1盒",
+				"calorieIndex": "medium",
+				"nutrientVaule": 15
+			},
+			{
+				"id": 43,
+				"type": "absolute",
+				"name": "简单点酸奶",
+				"brand": "味全",
+				"quantifier": "1瓶",
+				"calorieIndex": "small",
+				"nutrientVaule": 9
+			},
+			{
+				"id": 44,
+				"type": "absolute",
+				"name": "鱼子蛋沙拉三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 14
+			},
+			{
+				"id": 45,
+				"type": "absolute",
+				"name": "黑椒猪排全麦三明治",
+				"brand": "全家",
+				"quantifier": "1块",
+				"calorieIndex": "medium",
+				"nutrientVaule": 11
+			}
+		]
+	},
+	"annotation": {
+		"type": "食物的能量可以被精确测量时即绝对类型，否则即相对类型",
+		"quantifier": "相较于传统的克或毫升单位，真实的食用单位更符合直觉",
+		"calorieIndex": "根据营养值是否低于10或者20或者30，划分为四档参考指数",
+		"nutrientVaule": "每份食物的NRV%值经过处理后的整数值，长期统计可抵消误差"
+	},
 }
